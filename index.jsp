@@ -42,7 +42,7 @@
 
 <body>
 
-    <h1>Bull Hit Game</h1>
+    <h1>Bull Hit Game - DEVOPS Project</h1>
 
     <p>
         Guess the secret combination of 4 different letters between A and H.
