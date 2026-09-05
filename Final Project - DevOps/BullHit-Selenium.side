@@ -1,0 +1,126 @@
+{
+  "id": "8cba008d-ebd4-497b-90b3-c70c445a3020",
+  "version": "2.0",
+  "name": "BullHit-Selenium",
+  "url": "http://localhost:8080/NogaHenAvivYam-BullHitGame/",
+  "tests": [{
+    "id": "f619ab7e-6903-4ab0-a94b-f6b2a28dd984",
+    "name": "Untitled",
+    "commands": [{
+      "id": "ac6380f7-31b5-4965-9185-73b55123f19b",
+      "comment": "",
+      "command": "open",
+      "target": "index.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0eea499-fd39-4696-82ac-c3fd28d502d1",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Bull Hit Game",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95ca841c-389d-4176-b9c1-9ba18ab85cbf",
+      "comment": "",
+      "command": "type",
+      "target": "id=guess",
+      "targets": [],
+      "value": "ABCD"
+    }, {
+      "id": "09af55df-ea70-4d4c-84af-d9b88650dfe6",
+      "comment": "",
+      "command": "click",
+      "target": "css=button[type=\"submit\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92bc8cc6-400e-4643-b8d0-41d6492038c8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=h3",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d632320e-c3b3-4fe8-9cc5-a2b2a6151a36",
+      "comment": "",
+      "command": "type",
+      "target": "id=guess",
+      "targets": [],
+      "value": "AABB"
+    }, {
+      "id": "12b4551a-1e86-41de-8265-dd66ce40afd0",
+      "comment": "",
+      "command": "click",
+      "target": "css=button[type=\"submit\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73fcfec5-c34f-4830-a9f1-ab556fe30174",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//h3[contains(.,'Invalid guess')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "068dfced-f460-4e65-bfda-b26e8aec4900",
+      "comment": "",
+      "command": "click",
+      "target": "css=a[href=\"rules.jsp\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89851ce8-47e8-40c1-94ef-ce4dcd05beae",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=h1",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "1d3f230d-7992-44c7-b64b-7606e5c3cdb8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [],
+      "value": "How to Play"
+    }, {
+      "id": "196d4b60-31bf-42a5-ac47-2bb4f7438211",
+      "comment": "",
+      "command": "click",
+      "target": "css=a[href=\"index.jsp\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0034f6f3-52aa-4454-9edd-95cce877c63b",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=guess",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "4f71923d-b678-40da-9469-d38249aa0353",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[self::a or self::button][normalize-space()='New Game']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f461b687-596c-45d8-8b23-eb28a0eec800",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "xpath=//h2[normalize-space()='Guess History']",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "617f26f0-eed7-4699-8c0f-8de57d57a62b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f619ab7e-6903-4ab0-a94b-f6b2a28dd984"]
+  }],
+  "urls": ["http://localhost:8080/NogaHenAvivYam-BullHitGame/"],
+  "plugins": []
+}
